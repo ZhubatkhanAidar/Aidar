@@ -1,3 +1,7 @@
-print(10 < 9)
+import datetime
 
-False
+today=datetime.datetime.now()
+
+today = today.replace(microsecond=0)
+
+print(today)
