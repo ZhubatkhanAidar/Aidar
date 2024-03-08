@@ -10,9 +10,8 @@
 
 import re
 
-with open(r'C:\Users\ASUS\Desktop\pp2\lab5\a.txt', 'r', encoding='utf-8') as file:
+with open(r'C:\Users\Aidar\Desktop\pp2\lab5\a.txt', 'r', encoding='utf-8') as file:
      g = file.read()
 
 match = re.findall(r"ab*", g)
 print(match)
-
