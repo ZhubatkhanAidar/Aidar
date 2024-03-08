@@ -1,6 +1,6 @@
 import os
 
-pathie = "C:/Users/Aidar/Desktop/pp"
+pathie = "C:/Users/Aidar/Desktop/pp2"
 
 def fun(list_items, pathie):
     with open(pathie, 'w') as file:
